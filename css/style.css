@@ -102,6 +102,24 @@ option, option:hover{
   font-weight: 400;
   padding: 15px 20px;
 }
+.btn.btn-fb {
+  background-color: #0076c8;
+  color: #fff;
+}
+.btn.btn-fb:hover {
+  box-shadow: 0px 3px 10px #0076c8;
+}
+.btn.btn-ic .fa {
+  font-size: 15px;
+  margin-right: 13px;
+}
+.btn.btn-google {
+  background-color: #dc4a38;
+  color: #fff;
+}
+.btn.btn-google:hover {
+  box-shadow: 0px 3px 10px #dc4a38;
+}
 /* DEFAULT COMPONENT END */
 
 /* CUSTOM STYLE START*/
@@ -126,16 +144,16 @@ option, option:hover{
 .user-auth-form form .btn {
   margin-top: 50px;
 }
-.btn.btn-fb {
-  background-color: #0076c8;
-}
-.btn.btn-fb:hover {
-  box-shadow: 0px 3px 10px #0076c8;
-}
 .btn.btn-ic .fa {
   font-size: 15px;
-
 }
+.other-auth-methods {
+  margin-top: 50px;
+}
+.other-auth-methods .btn {
+  margin-bottom: 10px;
+}
+
 /* CUSTOM STYLE END*/
 /*MEDIA START*/
 @media (min-width: 480px){
